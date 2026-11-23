@@ -29,7 +29,7 @@ name: Publish Gurux.Compression.Net NuGet package
 
 on:
   push:
-    branches: [master]
+    branches: [main]
     paths:
       - 'Development/**'
       - 'UnitTests/**'
@@ -60,7 +60,7 @@ concurrency:
 
 jobs:
   publish:
-    if: github.repository == 'Gurux/Gurux.Compression.Net' && github.ref == 'refs/heads/master'
+    if: github.repository == 'Gurux/Gurux.Compression.Net' && github.ref == 'refs/heads/main'
     runs-on: windows-latest
     timeout-minutes: 60
     permissions:

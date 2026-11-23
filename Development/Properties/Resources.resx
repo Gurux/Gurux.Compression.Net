@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BitBufferExpectedDigits" xml:space="preserve"><value>Expected binary digits or whitespace.</value></data>
+  <data name="CodewordSizeRange" xml:space="preserve"><value>The codeword size must be between 6 and 16 bits.</value></data>
+  <data name="CompressionStoppedTrace" xml:space="preserve"><value>Compression stopped by trace callback.</value></data>
+  <data name="DecoderCodewordOutOfRange" xml:space="preserve"><value>Codeword {0} is outside the current dictionary ending at C1({1}).</value></data>
+  <data name="DecoderCodewordWidthExceeded" xml:space="preserve"><value>Codeword width exceeds the negotiated maximum.</value></data>
+  <data name="DecoderExtendedExceedsMaximum" xml:space="preserve"><value>Extended string exceeds the negotiated maximum.</value></data>
+  <data name="DecoderExtensionRequiresCodeword" xml:space="preserve"><value>String extension must follow a codeword.</value></data>
+  <data name="DecoderHistoryOverflow" xml:space="preserve"><value>Decoder history overflow before reinitialization.</value></data>
+  <data name="DecoderHistoryUnderflow" xml:space="preserve"><value>History underflow while decoding extension.</value></data>
+  <data name="DecoderOrdinalWidthExceeded" xml:space="preserve"><value>Ordinal width exceeds eight bits.</value></data>
+  <data name="DecoderPreviousCodewordNotFound" xml:space="preserve"><value>Previous codeword {0} was not found.</value></data>
+  <data name="DecoderRequiresFlush" xml:space="preserve"><value>A complete V.44 stream must end with FLUSH.</value></data>
+  <data name="DecoderSpecialPreviousToken" xml:space="preserve"><value>Special codeword C1 requires a valid previous token.</value></data>
+  <data name="DecoderStepUpMissingToken" xml:space="preserve"><value>STEPUP has no following token.</value></data>
+  <data name="DecoderUncreatedExceedsMaximum" xml:space="preserve"><value>Uncreated string exceeds the negotiated maximum.</value></data>
+  <data name="DecoderUncreatedRequiresPrevious" xml:space="preserve"><value>Uncreated codeword requires a preceding ordinal or codeword.</value></data>
+  <data name="DecoderUnsupportedTransparent" xml:space="preserve"><value>Transparent mode is not supported by this compressed-stream decoder.</value></data>
+  <data name="DecompressionEnded" xml:space="preserve"><value>Decompression end.</value></data>
+  <data name="DecompressionStoppedTrace" xml:space="preserve"><value>Decompression stopped by trace callback.</value></data>
+  <data name="DifferentStreamsRequired" xml:space="preserve"><value>Input and output must be different streams.</value></data>
+  <data name="EncoderHistoryOverflow" xml:space="preserve"><value>Encoder history overflow before reinitialization.</value></data>
+  <data name="InternalDictionaryCapacityExceeded" xml:space="preserve"><value>Dictionary capacity exceeded.</value></data>
+  <data name="InternalInvalidObjectType" xml:space="preserve"><value>Invalid object type.</value></data>
+  <data name="InternalInvalidStringExtensionLength" xml:space="preserve"><value>Invalid string extension length.</value></data>
+  <data name="InternalInvalidStringLengthOption" xml:space="preserve"><value>Invalid string length option.</value></data>
+  <data name="InternalNonzeroFlushPadding" xml:space="preserve"><value>Nonzero FLUSH padding before bit {0}.</value></data>
+  <data name="InternalTruncatedToken" xml:space="preserve"><value>Truncated V.44 token at bit {0}.</value></data>
+  <data name="InvalidBinaryCharacter" xml:space="preserve"><value>The character '{0}' is not a valid binary digit or permitted separator.</value></data>
+  <data name="OrdinalSizeRange" xml:space="preserve"><value>The ordinal size must be 7 or 8 bits.</value></data>
+  <data name="ReadableStreamRequired" xml:space="preserve"><value>Stream must be readable.</value></data>
+  <data name="WritableStreamRequired" xml:space="preserve"><value>Stream must be writable.</value></data>
+</root>

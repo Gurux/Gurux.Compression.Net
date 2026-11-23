@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net11.0;net10.0;net9.0</TargetFrameworks>
+        <RootNamespace>Gurux.Compression</RootNamespace>
+        <AssemblyName>Gurux.Compression.Net</AssemblyName>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <DebugType>portable</DebugType>
+        <Deterministic>true</Deterministic>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Version Condition="'$(Version)' == '' and '$(BUILD_BUILDNUMBER)' != ''">$(BUILD_BUILDNUMBER)</Version>
+        <Version Condition="'$(Version)' == ''">0.0.1-local</Version>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Company>Gurux Ltd</Company>
+        <Authors>Gurux Ltd</Authors>
+        <Copyright>Copyright (c) 1998-2026 Gurux Ltd. All rights reserved.</Copyright>
+        <Description>V.44 compression and decompression for binary data, including stream support.</Description>
+        <PackageId>Gurux.Compression.Net</PackageId>
+        <PackageProjectUrl>https://www.gurux.fi/</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Gurux/Gurux.Compression.Net</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageTags>compression;v44;gurux</PackageTags>
+        <PackageIcon>Gurux.Compression.png</PackageIcon>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="UnitTests" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="../Gurux.Compression.png" Pack="true" PackagePath="/" />
+        <None Include="../README.md" Pack="true" PackagePath="/" />
+        <None Include="../LICENSE" Pack="true" PackagePath="/" />
+        <None Include="../LICENSES/**" Pack="true" PackagePath="LICENSES/" />
+    </ItemGroup>
+
+</Project>
